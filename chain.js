@@ -7,7 +7,7 @@ class Chain {
        stiffness:0.9
      }
 
-    this.body = MouseConstraint.create(engine, options);
+    this.body = Constraint.create(options);
     World.add(world,this.body);
 }
 display(){
